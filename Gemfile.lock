@@ -5,6 +5,8 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     execjs (2.2.2)
+    fast-stemmer (1.0.2)
+    hitimes (1.2.2)
     ffi (1.11.1)
     forwardable-extended (2.6.0)
     jekyll (3.6.3)
@@ -21,10 +23,10 @@ GEM
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (0.6.1)
+    kramdown (1.4.2)
+    libv8 (3.16.14.19)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
-    kramdown (1.17.0)
-    libv8 (3.16.14.19)
     liquid (4.0.3)
     listen (3.1.1)
       rb-fsevent (>= 0.9.3)
@@ -39,6 +41,7 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     rdiscount (2.1.7.1)
+    redcarpet (3.2.0)
     ref (2.0.0)
     rouge (2.2.1)
     safe_yaml (1.0.5)
@@ -51,6 +54,11 @@ GEM
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
       ref
+    timers (4.0.1)
+      hitimes
+    toml (0.1.2)
+      parslet (~> 1.5.0)
+    yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
