@@ -9,8 +9,8 @@ permalink:        pretty
 
 # Setup
 title:            'Alexander Parker'
-tagline:          'UTC+2 based Support Manager and Speaker'
-description:      'Alexander Parker'
+tagline:          'Alexander Parker'
+description:      'Data Science & Programming'
 url:              https://alexander-parker.github.io/
 
 author:
@@ -18,9 +18,7 @@ author:
   url:            https://alexander-parker.github.io/
 
 paginate:         25
-
-# Custom vars
-version:          0.1.1
+future:           true
 
 github:
   repo:           https://github.com/Alexander-Parker/Alexander-Parker.github.io
