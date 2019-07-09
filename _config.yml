@@ -8,14 +8,14 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            fooforge
+title:            'Alexander Parker'
 tagline:          'UTC+2 based Support Manager and Speaker'
-description:      'Mike Adolphs'
-url:              http://fooforge.com
+description:      'Alexander Parker'
+url:              https://alexander-parker.github.io/
 
 author:
-  name:           'Mike Adolphs'
-  url:            https://twitter.com/fooforge
+  name:           'Alexander Parker'
+  url:            https://alexander-parker.github.io/
 
 paginate:         25
 
@@ -23,7 +23,7 @@ paginate:         25
 version:          0.1.1
 
 github:
-  repo:           https://github.com/fooforge/fooforge.com
+  repo:           https://github.com/Alexander-Parker/Alexander-Parker.github.io
 
 gems:
   - jekyll-sitemap
