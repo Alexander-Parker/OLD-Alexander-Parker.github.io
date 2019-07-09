@@ -1,38 +1,51 @@
+encoding: utf-8
+
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
 # Permalinks
-permalink:           pretty
+permalink:        pretty
 
 # Setup
-title:               Alexander Parker
-tagline:             Yet Another Github Blog
-url:                 https://alexander-parker.github.io/
-paginate:            2
-baseurl:             ""
+title:            fooforge
+tagline:          'UTC+2 based Support Manager and Speaker'
+description:      'Mike Adolphs'
+url:              http://fooforge.com
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
 author:
-  name:              Alexander Parker
-  url:               https://github.com/Alexander-Parker
-  email:             alexanderparker@utexas.edu
+  name:           'Mike Adolphs'
+  url:            https://twitter.com/fooforge
+
+paginate:         25
 
 # Custom vars
-version:             2.0.0
+version:          0.1.1
+
 github:
-  repo:              https://github.com/Alexander-Parker/Alexander-Parker.github.io
+  repo:           https://github.com/fooforge/fooforge.com
 
-# Gems
 gems:
-  - jekyll-paginate
-  - jekyll-gist
-
-# Page List
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/index.html'
+  - jekyll-sitemap
+  
+picture:
+  source: "public/img/_original"
+  output: "public/img"
+  markup: "picturefill"
+  presets:
+    default:
+      ppi: [1]
+      attr:
+        class: "default-img"
+        itemprop: "image"
+      source_large:
+        media: "(min-width: 35em)"
+        width: "720"
+      source_medium:
+        media: "(min-width: 25em)"
+        width: "400"
+      source_small:
+        media: "(min-width: 12.5em)"
+        width: "200"
+      source_default:
+        width: "1000"
