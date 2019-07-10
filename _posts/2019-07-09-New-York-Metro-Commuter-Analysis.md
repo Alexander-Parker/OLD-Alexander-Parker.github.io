@@ -115,12 +115,16 @@ The table below shows the top ten stations by daily average commuters. Along wit
 
 Our busiest stations were all located in Manhattan and include many recognizable names. We used the folium python package to map out the stations below:
 
-TBU: Add static map 
+<iframe src="public/html/static_map.html" height="500px" width="100%"></iframe>
 
 ## When to Target? A Bit More Detail on the Largest Stations
 We wanted to be able to tell our client when to target certain stations along with which stations to target. We generated heatmaps to show ridership activity over several different timeseries in order to highlight time considerations. These heatmaps were generated in folium using the appropriately-named [HeatMapWithTime plugin](https://python-visualization.github.io/folium/plugins.html#folium.plugins.HeatMapWithTime). Note that these maps include all stations, not just our top ten. The map scale is specific to each time step of the map and should be used to interpret activity relative to other stations in the same time period rather than absolute activity across time periods
 
-TBU: Add time series maps
+### Average Ridership by Day of Week
+<iframe src="public/html/time_map_byday.html" height="500px" width="100%"></iframe>
+
+### Average Ridership by Time of Day
+<iframe src="public/html/time_map_intra.html" height="500px" width="100%"></iframe>
 
 Manhattan stations showed different patterns of activity during the weekends versus work days. We also noticed that Manhattan stations were generally the busiest of all throughout the day by a large margin with the exception of early morning (4:00 – 8:00 AM), where Manhattan was relatively less busy than the rest of the subway network. 
 
